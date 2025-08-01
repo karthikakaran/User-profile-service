@@ -1,0 +1,28 @@
+{
+  "name": "until",
+  "version": "1.0.0",
+  "description": "Design and implement a simple user profile service using Fastify, Postgres and Docker. This service should store and retrieve basic profile data, with a focus on development best practices and code quality.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "docker compose up --build",
+    "test": "docker compose -f docker-compose.test.yml --env-file .env.test up --build --force-recreate --abort-on-container-exit",
+    "test:watch": "vitest --watch"
+  },
+  "author": "Karthika Karunakaran",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/postgres": "^6.0.2",
+    "dotenv": "^17.2.1",
+    "fastify": "^5.4.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2",
+    "vitest": "^3.2.4"
+  }
+}
