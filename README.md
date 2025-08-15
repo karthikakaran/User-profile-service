@@ -8,15 +8,15 @@ practices and code quality.
 
 # 1. Functionality
 
-● A data model for storing user profiles with the following fields:
-○ firstName
-○ lastName
-○ dateOfBirth
-● Four endpoints:
-○ Retrieve a single profile
-○ Retrieve all profiles
-○ Create a new profile
-○ Update an existing profile
+● A data model for storing user profiles with the following fields :  
+    ○ firstName  
+    ○ lastName  
+    ○ dateOfBirth  
+● Four endpoints :  
+    ○ Retrieve a single profile  
+    ○ Retrieve all profiles  
+    ○ Create a new profile  
+    ○ Update an existing profile  
 
 # 2. Observability
 
@@ -24,14 +24,14 @@ practices and code quality.
 
 # 3. Code Quality
 
-● Include:
-○ Linting - ESLint (used eslint)
-○ Formatting - Prettier (used prettier eslint-config-prettier eslint-plugin-prettier)
-○ Testing - Vitest (added 7 tests)
+● Include:  
+    ○ Linting - ESLint (used eslint)  
+    ○ Formatting - Prettier (used prettier eslint-config-prettier eslint-plugin-prettier)  
+    ○ Testing - Vitest (added 7 tests)  
 
-# Instructions to run:
-To run : npm run dev
-To Test : npm test
+# Instructions to run:  
+To run : npm run dev  
+To Test : npm test  
 
 #  HTTP method and routes
 1. Retrieve all profiles - GET - http://localhost:3000/profiles
