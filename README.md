@@ -12,7 +12,7 @@ practices and code quality.
     - firstName  
     - lastName  
     - dateOfBirth  
-● Four endpoints :  
+● Four endpoints :      
     - Retrieve a single profile  
     - Retrieve all profiles  
     - Create a new profile  
@@ -30,8 +30,8 @@ practices and code quality.
     - Testing - Vitest (added 7 tests)  
 
 # Instructions to run:  
-To run : npm run dev  
-To Test : npm test  
+    To run : npm run dev  
+    To Test : npm test  
 
 #  HTTP method and routes
 1. Retrieve all profiles - GET - http://localhost:3000/profiles
